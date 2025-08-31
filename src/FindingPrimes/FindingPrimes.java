@@ -24,7 +24,7 @@ public class FindingPrimes {
         boolean[] isPrime = new boolean[n + 1];
         Arrays.fill(isPrime, true);
 
-        // I numeri 0 e 1 non sono primi.
+        // I numeri 0 e 1 non sono primi
         isPrime[0] = false;
         isPrime[1] = false;
 
